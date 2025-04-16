@@ -7,9 +7,11 @@
 
 import Foundation
 
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+
 func maxProfit(_ prices: [Int]) -> Int {
     
-    var profit = 0    
+    var profit = 0
     var buy = prices[0]
     
     for i in 1..<prices.count {
