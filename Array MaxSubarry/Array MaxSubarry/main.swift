@@ -9,6 +9,10 @@ import Foundation
 
 //https://leetcode.com/problems/maximum-subarray
 
+/// Kadane's Algorithm
+//https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+
+
 func maxSubArray(_ nums: [Int]) -> Int {
 
     var sum: Int = nums[0]
@@ -25,4 +29,5 @@ func maxSubArray(_ nums: [Int]) -> Int {
 }
 
 print(maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
+//print(maxSubArray([-2, 1, -3, -5, -1, 2, 1, 0, 4]))
 
